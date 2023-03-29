@@ -55,7 +55,7 @@ $('document').ready(function(){
 			var project = ['https://docs.google.com/document/d/e/2PACX-1vQZVjOhMcmHyJiiEn35qnDB6hX0r02Hbhja4W5uB7hfInV1JI7NDKu9LICBgEjE8KgXJ7mtLe5E1iMQ/pub?embedded=true'];
 		} else if (frameClass === 'col-6') {			
 			// Risograph
-			var project = ['https://docs.google.com/document/d/e/2PACX-1vR7JLDyLylF2V7DtPBF8ZmronOrGpZJf-R2FkBdQwN24BttG3FtbjbVAF1wCl7KsWMBME9ijw5-0Yqd/pub?embedded=true'];
+			var project = ['https://docs.google.com/document/d/e/2PACX-1vQOO7BkLmIx7PeyVS15ItlOd_ry3p1hTiA8vspfzbayA_w6BxWoask1XlTnkshZNz4MjJIfRZJlDayW/pub?embedded=true'];
 		} else if (frameClass === 'col-7') {		
 			// Something in the air
 			var project = ['https://docs.google.com/document/d/e/2PACX-1vR7JLDyLylF2V7DtPBF8ZmronOrGpZJf-R2FkBdQwN24BttG3FtbjbVAF1wCl7KsWMBME9ijw5-0Yqd/pub?embedded=true'];
