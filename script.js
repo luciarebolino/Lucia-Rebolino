@@ -24,11 +24,11 @@ $('document').ready(function(){
 
 	$('.column').mouseenter(function(){
 		$(this).css('width', '50%');
-		$('#info').css('width', '4.16666667%');
+		$('#info').css('width', '3.33333333%');
 	});
 	$('.column').mouseleave(function(){
-		$(this).css('width', '3.57142857%');
-		$('#info').css('width', '4.16666667%');
+		$(this).css('width', '3.33333333%');
+		$('#info').css('width', '50%');
 	});
 
 	$('.column').css('height', hoogte);
@@ -49,7 +49,7 @@ $('document').ready(function(){
 			var project= ['https://docs.google.com/document/d/e/2PACX-1vRniq7Ab8XNmw3Y9I1-lZUIIbo8tR1kWJOJs0-jACxrbKM2i7HlvbUEaK0l2DtU8UgnsTAf-13cpkhP/pub?embedded=true'];
 		} else if (frameClass === 'col-4') {
 			// Drawing Machine
-			var project= ['https://docs.google.com/document/d/e/2PACX-1vRniq7Ab8XNmw3Y9I1-lZUIIbo8tR1kWJOJs0-jACxrbKM2i7HlvbUEaK0l2DtU8UgnsTAf-13cpkhP/pub?embedded=true'];
+			var project= ['https://docs.google.com/document/d/e/2PACX-1vSCgbF4i8QiYtCeM7FDECmuoub9jC_VHl_0ApXjrRJZirTiFmxEoWhLFwB31wBac74h9NybGDLOzcs1/pub?embedded=true'];
 		} else if (frameClass === 'col-5') {
 			// Bordo Clima book
 			var project = ['https://docs.google.com/document/d/e/2PACX-1vTU0-N6QLi1wIryL-QC5wXZzjTsBsl00LgK3HRXvYubYbKUjONcZGLy8W32F40bw04p2HJXOJh7YXiL/pub?embedded=true'];

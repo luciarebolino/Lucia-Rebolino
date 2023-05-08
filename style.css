@@ -14,7 +14,7 @@ iframe {
 
 .column {
 	display: inline-block;
-	width: 4.16666667vw;
+	width: 3.33333333vw;
 	height: 100vh;
 	transition: 1s;
 }
