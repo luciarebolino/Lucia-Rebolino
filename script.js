@@ -8,7 +8,7 @@ $('document').ready(function(){
 	var klas = 'column';
 	var ide;
 
-	for (i = 0; i < 14; i++) {
+	for (i = 0; i < 15; i++) {
 		var getal = i + 1;
 		var ide = 'col-' + getal; 
 		cont[i] = '<div id="' + ide + '" class="' + klas + '"><iframe class="' + ide + '"></iframe></div>';
