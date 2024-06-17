@@ -8,7 +8,7 @@ $('document').ready(function(){
 	var klas = 'column';
 	var ide;
 
-	for (i = 0; i < 15; i++) {
+	for (i = 0; i < 18; i++) {
 		var getal = i + 1;
 		var ide = 'col-' + getal; 
 		cont[i] = '<div id="' + ide + '" class="' + klas + '"><iframe class="' + ide + '"></iframe></div>';
@@ -24,10 +24,10 @@ $('document').ready(function(){
 
 	$('.column').mouseenter(function(){
 		$(this).css('width', '50%');
-		$('#info').css('width', '3.33333333%');
+		$('#info').css('width', '2.777777777777778%');
 	});
 	$('.column').mouseleave(function(){
-		$(this).css('width', '3.33333333%');
+		$(this).css('width', '2.777777777777778%');
 		$('#info').css('width', '50%');
 	});
 
@@ -42,14 +42,14 @@ $('document').ready(function(){
 			// Unpredictable Atmosphere
 			var project = ['https://docs.google.com/document/d/e/2PACX-1vRN4enFu0v7pqTipwmW1O9N6kPvO8Jndvkh9Lxl74KDdVTvPcBzHfpvHs4LQbtGT4t62vEIJMcMgSU3/pub?embedded=true'];
 		} else if (frameClass === 'col-2') {
-			// Epigenetic Landscape
-			var project = ['https://docs.google.com/document/d/e/2PACX-1vREfaP6mJ9Kc1xbYmu4SnZywwep3N5FP1VrZmRG-8_fs-OvA-I-Mzf57bzN7tepwwW0UDmosPxIlEwN/pub?embedded=true'];
+			// Critical24
+			var project = ['https://docs.google.com/document/d/e/2PACX-1vQjwU3cUEHx_P7QClxRxsn81jQApy2m-wlzGr2QtDcYfc9KIGuEd1c0T-nw0ZlRAX9jXQlspJnodv6A/pub?embedded=true'];
 		} else if (frameClass === 'col-3') {
-			// Cloud Machine
-			var project= ['https://docs.google.com/document/d/e/2PACX-1vRniq7Ab8XNmw3Y9I1-lZUIIbo8tR1kWJOJs0-jACxrbKM2i7HlvbUEaK0l2DtU8UgnsTAf-13cpkhP/pub?embedded=true'];
+			// Water Index
+			var project= ['https://docs.google.com/document/d/e/2PACX-1vRsUUteRGYQ42YL31MsERHaUrWRigOhKRVkv3LUahu9qfrnimzZl_otAWZO6LncxDI65llEUwFH9Ab7/pub?embedded=true'];
 		} else if (frameClass === 'col-4') {
-			// Drawing Machine
-			var project= ['https://docs.google.com/document/d/e/2PACX-1vSCgbF4i8QiYtCeM7FDECmuoub9jC_VHl_0ApXjrRJZirTiFmxEoWhLFwB31wBac74h9NybGDLOzcs1/pub?embedded=true'];
+			// FA
+			var project = ['https://docs.google.com/document/d/e/2PACX-1vTnqjc0-Jl2oAgEu-XTQ8BOxNgyUDTEtSwV804HkXt6msrXSBCqK6cQ7jyAzMeS1N74aFb1VezjVcIk/pub?embedded=true'];
 		} else if (frameClass === 'col-5') {
 			// Bordo Clima book
 			var project = ['https://docs.google.com/document/d/e/2PACX-1vTU0-N6QLi1wIryL-QC5wXZzjTsBsl00LgK3HRXvYubYbKUjONcZGLy8W32F40bw04p2HJXOJh7YXiL/pub?embedded=true'];
@@ -81,9 +81,21 @@ $('document').ready(function(){
 			// Unseen
 			var project = ['https://docs.google.com/document/d/e/2PACX-1vSmseaDZuC828geyXnES3hddqZgiTUDj8PLN5rhFoSJG2PIV962_oOPTSwtR4gOt8dUmqHzyuBJh2YW/pub?embedded=true'];
 		} else if (frameClass === 'col-15') {
-			// Eye
-			var project = ['https://docs.google.com/document/d/e/2PACX-1vTAEFDLHfzJdquIhCTbl7IYxMgdfeuLF9_Z62w_0npVHF_EXOVRqGsMApb_YKGnFW17BO-jxy7G0OEG/pub?embedded=true'];
+			// Cloud Machine
+			var project = ['https://docs.google.com/document/d/e/2PACX-1vRniq7Ab8XNmw3Y9I1-lZUIIbo8tR1kWJOJs0-jACxrbKM2i7HlvbUEaK0l2DtU8UgnsTAf-13cpkhP/pub?embedded=true'];
+		} else if (frameClass === 'col-16') {
+			// Epigenetic Landscape
+			var project = ['https://docs.google.com/document/d/e/2PACX-1vREfaP6mJ9Kc1xbYmu4SnZywwep3N5FP1VrZmRG-8_fs-OvA-I-Mzf57bzN7tepwwW0UDmosPxIlEwN/pub?embedded=true'];
+		} else if (frameClass === 'col-17') {
+			// Drawing Machine
+			var project= ['https://docs.google.com/document/d/e/2PACX-1vSCgbF4i8QiYtCeM7FDECmuoub9jC_VHl_0ApXjrRJZirTiFmxEoWhLFwB31wBac74h9NybGDLOzcs1/pub?embedded=true'];
 		} 
+		else if (frameClass === 'col-18') {
+			// GUESTBOOK
+			var project= ['https://docs.google.com/document/d/e/2PACX-1vQx14G9MwTWbqI7ZggUiNc2OStNOQgY5IHZ1amg8wCG6AcTBsetDSSOOau0QeXv9ILcDvX005g558_g/pub?embedded=true'];
+		} 
+	
+		
 		
 		$(this).attr('src', project);
 	
